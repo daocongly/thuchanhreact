@@ -1,23 +1,21 @@
 import logo from './logo.svg';
-import './App.css';
+import {Navbar, NavbarBrand} from 'reactstrap';
+import Menu from './components/MenuComponent';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <p>Ristorante Con Fusion</p>
+    </a>
+    </div>
+    </nav>
+    <div>
+      
+    </div>
     </div>
   );
 }
